@@ -4,7 +4,8 @@ This Shiny application provides an interactive interface to visualize population
 
 ## Data Source
 
-[United Nations-World Population Prospects]([https://population.un.org/wpp/(https://population.un.org/wpp/](https://population.un.org/wpp/(https://population.un.org/wpp/)%7B.uri%7D)
+[United Nations-World Population Prospects](https://population.un.org/wpp/)
+
 
 ## Features
 
@@ -15,11 +16,11 @@ This Shiny application provides an interactive interface to visualize population
 -   **Population Trend**: Track the population trend over time for the selected age groups.
 -   **Download Data**: Download the population data for the selected country/region as a CSV file.
 
-![population pyramid](images/pyramid.png)
+![population pyramid](www/images/pyramid.png)
 
-![world population trend](images/trend.png)
+![world population trend](www/images/trend.png)
 
-![population data](images/table.png)
+![population data](www/images/table.png)
 
 ## Libraries Used
 
@@ -81,10 +82,4 @@ Acknowledgements The population data used in this app is sourced from United Nat
 -   Instructions for installing the necessary packages and running the app locally are included.
 -   The application is interactive, allowing users to filter and download population data as CSV files.
 
-# 欢迎关注微信公众号： R语言与可视化
-
-![](images/gzh-light.png)
-
-# 如需shiny应用开发可加微信: `shinydev`
-
-![](images/shinydev.jpg)
+![](www/images/gzh-shiny-qrcode.png)

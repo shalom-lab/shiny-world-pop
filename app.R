@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyr)
 library(bslib)
 library(reactable)
+library(markdown)
 
 
 # 欢迎关注微信公众号： R语言与可视化
@@ -67,7 +68,13 @@ ui <- page_navbar(
       ),
       reactableOutput("data_table")
     )
-  )
+  ),
+  nav_panel(
+    "About",
+    tags$img(src = "images/gzh-shiny-qrcode.png",height = "300px",width="500px")
+  ),
+  nav_spacer(),
+  nav_item(tags$a(shiny::icon("github"), "", href = "https://github.com/shalom-lab/shiny-world-pop", target = "_blank"))
 )
 
 server <- function(input, output, session) {
